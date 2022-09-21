@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Import;
 
 //@Configuration
-@ComponentScan
+//@ComponentScan
 public class CDPlayerConfig {
 //    @Bean
 //    public CDPlayer cdPlayer(){
