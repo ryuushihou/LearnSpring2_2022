@@ -12,9 +12,9 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration(classes=SoundSystemConfig.class)
 //@ContextConfiguration(classes=SoundSystemConfig.class)
-//@ContextConfiguration(locations = {"classpath:demo.xml"}) // junit测试时候 加载xml配置bean
+//@ContextConfiguration(classes=SoundSystemConfig.class)
+@ContextConfiguration(locations = {"classpath:demo.xml"}) // junit测试时候 加载xml配置bean
 public class CDPlayerTest {
 
     @Rule
