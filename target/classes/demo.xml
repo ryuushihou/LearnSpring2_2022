@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:c="http://www.springframework.org/schema/c"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd
+	    http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+<!--    <bean id = "compactDisc" class="soundsystem.BlankDisc">-->
+<!--        <constructor-arg value="Sgt. Pepper's Lonely Hearts Clubs Band"/>-->
+<!--        <constructor-arg value="The Beatles"/>-->
+<!--        <constructor-arg>-->
+<!--            <list>-->
+<!--                <value>Sgt. Pepper's Lonely Hearts Club Band</value>-->
+<!--                <value>With a Little Help from My Friends</value>-->
+<!--                <value>Lucy in the Sky with Diamonds</value>-->
+<!--                <value>Getting Better</value>-->
+<!--                <value>Fixing a Hole</value>-->
+<!--                &lt;!&ndash; ...other tracks omitted for brevity... &ndash;&gt;-->
+<!--            </list>-->
+<!--        </constructor-arg>-->
+<!--    </bean>-->
+
+<!--    <bean id="reallyBlankDisc" class="soundsystem.BlankDisc"/>-->
+
+<!--    <bean id = "compactDisc" class="soundsystem.BlankDisc"-->
+<!--        p:title="Sgt. Pepper's Lonely Hearts Clubs Band"-->
+<!--        p:artist="The Beatles"-->
+<!--        p:tracks-ref="trackList"/>-->
+
+<!--    <util:list id="trackList">-->
+<!--        <value>Sgt. Pepper's Lonely Hearts Club Band</value>-->
+<!--        <value>With a Little Help from My Friends</value>-->
+<!--        <value>Lucy in the Sky with Diamonds</value>-->
+<!--        <value>Getting Better</value>-->
+<!--        <value>Fixing a Hole</value>-->
+<!--    </util:list>-->
+
+<!--    <bean id="cdPlayer" class="soundsystem.CDPlayer">-->
+<!--        <property name="compactDisc" ref="compactDisc"/>-->
+<!--    </bean>-->
+
+</beans>
